@@ -44,11 +44,11 @@ public class ControllerScript : MonoBehaviour
 
     void Start()
     {
-        Application.targetFrameRate = 60;
     }
 
     void Update()
     {
+        Application.targetFrameRate = 60;
         cameraBase.localRotation = Quaternion.Euler(0, rot, 0);
         cameraBase.localPosition = new Vector3(X.value, height.value, Z.value);
         cam.fieldOfView = fov.value;
