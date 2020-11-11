@@ -41,9 +41,20 @@ public class ControllerScript : MonoBehaviour
     public CameraPositionSend campos;
 
     public float rot = 0f;
+    
+    private Config config;
 
     void Start()
     {
+        config = Config.loadConfig();
+
+        speed.value = config.Speed;
+        height.value = config.Height;
+        fov.value = config.FOV;
+        length.value = config.Length;
+        Angle.value = config.Angle;
+        X.value = config.X;
+        Z.value = config.Z;
     }
 
     void Update()
@@ -58,5 +69,19 @@ public class ControllerScript : MonoBehaviour
 
 
         rot += speed.value;
+    }
+
+    private void OnApplicationQuit()
+    {
+        // Configの保存
+        config.Speed = speed.value;
+        config.Height = height.value;
+        config.FOV = fov.value;
+        config.Length = length.value;
+        config.Angle = Angle.value;
+        config.X = X.value;
+        config.Z = Z.value;
+
+        config.saveConfig();
     }
 }
