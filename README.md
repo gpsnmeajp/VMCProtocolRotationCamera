@@ -15,8 +15,10 @@
 <img src="https://github.com/gpsnmeajp/VMCProtocolRotationCamera/blob/master/README-image/screen.png?raw=true" />
 
 ## 注意
-設定の保存とか、頭への追従とかそういう便利な機能はありません。  
+~~設定の保存とか、~~ 頭への追従とかそういう便利な機能はありません。  
 プルリクしてください。  
+
+設定の保存機能はプルリクで追加されました。
 
 ## 環境
 - [uOSC v0.0.2](https://github.com/hecomi/uOSC)
