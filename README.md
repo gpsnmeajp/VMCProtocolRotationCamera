@@ -1,4 +1,4 @@
-# VMCProtocolRotationCamera
+# ばもきゃのカメラまわすやつ(VMCProtocolRotationCamera)
 [VMCProtocol](https://sh-akira.github.io/VirtualMotionCaptureProtocol/)でバーチャルモーションキャプチャーのカメラを回すだけのツール  
 
 <img src="https://github.com/gpsnmeajp/VMCProtocolRotationCamera/blob/master/README-image/vmpc_logo_128x128.png?raw=true" />
