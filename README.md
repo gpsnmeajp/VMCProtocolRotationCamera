@@ -3,7 +3,8 @@
 
 <img src="https://github.com/gpsnmeajp/VMCProtocolRotationCamera/blob/master/README-image/vmpc_logo_128x128.png?raw=true" />
 
-**[ダウンロード](https://github.com/gpsnmeajp/VMCProtocolRotationCamera/releases)**
+**[boothからダウンロード](https://sabowl.booth.pm/items/2537399)**  
+**[githubからダウンロード](https://github.com/gpsnmeajp/VMCProtocolRotationCamera/releases)**  
 
 [VMC Protocol対応](https://protocol.vmc.info/)  
 
